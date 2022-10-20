@@ -10,6 +10,7 @@ Note: Can be used with `oxsecurity/megalinter@beta` in your GitHub Action mega-l
 
 - Fixes
   - Change name of config file for powershell formatter to avoid collision with powershell linter config
+  - Run Docker container as current user rather than root ([#1975](https://github.com/oxsecurity/megalinter/issues/1975))
 
 - Linter versions upgrades
   - [prettier](https://prettier.io/) from 2.8.1 to **2.8.2** on 2023-01-07
